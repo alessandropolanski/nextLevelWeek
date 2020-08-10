@@ -1,8 +1,13 @@
 import React from 'react';
+import PageHeader from '../../components/pageHeader';
+
+import './styles.css';
 
 function TeachersList(){
     return (
-        <h1>Teachers</h1>
+        <div id="page-teacher-list" className="containe">
+            <PageHeader title="Estes são os proffys disponíveis."/>
+        </div>
     )
 };
 
